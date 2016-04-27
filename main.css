@@ -1,7 +1,24 @@
+:root {
+  --backgroundColor: #f4511e;
+}
+
+:root {
+    --bgd: #333;
+}
+
+
+
+.bg-dark-grey{
+    background: #333;
+    color: white;
+}
+
 .jumbotron { 
-    background-color: #f4511e !important; /* Orange */
+    
+    background-size: cover;
+    
     color: #ffffff !important;
-    padding: 100px, 25px !important;
+    padding: 100px 25px 25px 25px;
 }
 
 .container-fluid{
@@ -10,6 +27,11 @@
 
 .bg-grey {
     background-color: #f6f6f6;
+    
+}
+
+.bg-orange{
+    background-color: #f4511e; 
 }
 
 .logo{
@@ -28,23 +50,21 @@
 }
 
 .thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
+    margin-top: 30px;
+    padding: 10px 0 15px 0;
+    border: solid;
+    border-radius: 20px;
+    border-color: #f4511e;
+    height: 370px;
 }
 
+/*
 .thumbnail img {
-    width: 30%;
-    height: 50%;
-    margin: 0 0 10px;
-}
+   width: 50px;
+   height: 70px;
+}*/
 
-@media screen and (max-width: 768px){
-    .col-sm4{
-        text-align: center !important;
-        margin: 25px 0 !important;
-    }
-}
+
 
 .item h4 {
     font-size: 19px;
@@ -58,7 +78,19 @@
     font-style: normal;
 }
 
-.panel {
+.col-sm-4 .btn {
+    margin: 15px 0;
+    background-color: #f4511e !important;
+    color: #fff !important;
+}
+
+.col-sm-4 .btn:hover{
+      border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e !important;
+}
+
+/*.panel {
     border: 1px solid #f4511e;
     border-radius: 0;
   
@@ -75,17 +107,9 @@
     color: #f4511e !important;
 }
 
-.col-sm-4 .btn {
-    margin: 15px 0;
-    background-color: #f4511e !important;
-    color: #fff !important;
-}
 
-.col-sm-4 .btn:hover{
-      border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e !important;
-}
+
+*/
 
 .img-small{
     width: 30px;
@@ -140,3 +164,14 @@
     color: #f4511e !important;
     background-color: #fff !important;
 }
+
+
+.medium-text{
+    font-size: 1.5em;
+}
+
+.small-text{
+    font-size: 1.5em;
+}
+
+
