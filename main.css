@@ -1,12 +1,3 @@
-:root {
-  --backgroundColor: #f4511e;
-}
-
-:root {
-    --bgd: #333;
-}
-
-
 
 .bg-dark-grey{
     background: #333;
@@ -58,14 +49,6 @@
     height: 370px;
 }
 
-/*
-.thumbnail img {
-   width: 50px;
-   height: 70px;
-}*/
-
-
-
 .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -89,27 +72,6 @@
     background-color: #fff !important;
     color: #f4511e !important;
 }
-
-/*.panel {
-    border: 1px solid #f4511e;
-    border-radius: 0;
-  
-    transition: box-shadow 0.5s;
-}
-
-.panel:hover{
-    box-shadow: 5px 0px 40px rgba(0, 0, 0, .5);
-}
-
-.panel-footer .btn:hover{
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e !important;
-}
-
-
-
-*/
 
 .img-small{
     width: 30px;
